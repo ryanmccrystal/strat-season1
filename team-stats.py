@@ -11,7 +11,7 @@ from google.oauth2.service_account import Credentials
 SPREADSHEET_ID = "1NkwN2hKQGNRcSdfAyFTyAMvp7I29CxmLsw-LXjCwT5A"
 
 TEAM_TABS = [
-        "ATL",
+    "ATL",
     "SFG",
     "LAA",
     "MIL",
