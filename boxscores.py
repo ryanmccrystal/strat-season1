@@ -8,8 +8,8 @@ from google.oauth2.service_account import Credentials
 SPREADSHEET_ID = "1NkwN2hKQGNRcSdfAyFTyAMvp7I29CxmLsw-LXjCwT5A"
 
 TEAM_NAMES = {
-    "PDX": "Portland",
-    "IOWA": "Iowa",
+    "SFG": "San Francisco",
+    "ATL": "Atlanta",
     "PAW": "Pawtucket",
     "RICH": "Richmond",
     "OMA": "Omaha",
@@ -17,8 +17,8 @@ TEAM_NAMES = {
 }
 
 TEAM_NICKNAMES = {
-    "Portland Beavers": "Beavers",
-    "Iowa Cubs": "Cubs",
+    "Atlanta Braves": "Braves",
+    "San Francisco Giants": "Giants",
     "Pawtucket Red Sox": "Red Sox",
     "Richmond Braves": "Braves",
     "Omaha Royals": "Royals",
@@ -1206,8 +1206,8 @@ def make_game_section(
 
     # Team nicknames for the game headline
     TEAM_NICKNAMES = {
-        "Portland Beavers": "Beavers",
-        "Iowa Cubs": "Cubs",
+        "Atlanta Braves": "Braves",
+        "San Francisco Giants": "Giants",
         "Pawtucket Red Sox": "Red Sox",
         "Richmond Braves": "Braves",
         "Omaha Royals": "Royals",
@@ -1380,8 +1380,8 @@ def make_standings_section(standings_rows):
 
     # Full team name -> city name used for team page.
     team_page_names = {
-        "Portland Beavers": "Portland",
-        "Iowa Cubs": "Iowa",
+        "Atlanta Braves": "Atlanta",
+        "San Francisco Giants": "Atlanta",
         "Pawtucket Red Sox": "Pawtucket",
         "Richmond Braves": "Richmond",
         "Omaha Royals": "Omaha",
