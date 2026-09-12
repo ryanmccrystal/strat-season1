@@ -13,7 +13,7 @@ from google.oauth2.service_account import Credentials
 # ============================================================
 
 SPREADSHEET_ID = (
-    "1hPnUsWFFjbFQZPrqc2F4X9f4ytjP2zb9sdhp8T0gjN0"
+    "1NkwN2hKQGNRcSdfAyFTyAMvp7I29CxmLsw-LXjCwT5A"
 )
 
 OUTPUT_FILE = "pitching-stats.html"
