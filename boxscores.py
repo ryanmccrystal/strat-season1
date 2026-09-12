@@ -10,19 +10,19 @@ SPREADSHEET_ID = "1NkwN2hKQGNRcSdfAyFTyAMvp7I29CxmLsw-LXjCwT5A"
 TEAM_NAMES = {
     "SFG": "San Francisco",
     "ATL": "Atlanta",
-    "PAW": "Pawtucket",
-    "RICH": "Richmond",
-    "OMA": "Omaha",
-    "DUNE": "Dunedin",
+    "STL": "St. Louis",
+    "MIL": "Milwaukee",
+    "OAK": "Oakland",
+    "LAA": "Los Angeles",
 }
 
 TEAM_NICKNAMES = {
     "Atlanta Braves": "Braves",
     "San Francisco Giants": "Giants",
-    "Pawtucket Red Sox": "Red Sox",
-    "Richmond Braves": "Braves",
-    "Omaha Royals": "Royals",
-    "Dunedin Blue Jays": "Blue Jays",
+    "Milwaukee Brewers": "Brewers",
+    "St. Louis Cardinals": "Cardinals",
+    "Oakland Athletics": "Athletics",
+    "Los Angeles Angels": "Angels",
 }
 
 TEAM_CODES = {
@@ -1208,10 +1208,10 @@ def make_game_section(
     TEAM_NICKNAMES = {
         "Atlanta Braves": "Braves",
         "San Francisco Giants": "Giants",
-        "Pawtucket Red Sox": "Red Sox",
-        "Richmond Braves": "Braves",
-        "Omaha Royals": "Royals",
-        "Dunedin Blue Jays": "Blue Jays",
+        "Milwaukee Brewers": "Brewers",
+        "St. Louis Cardinals": "Cardinals",
+        "Oakland Athletics": "Athletics",
+        "Los Angeles Angels": "Angels",
     }
 
     winner = TEAM_NICKNAMES.get(
@@ -1381,11 +1381,11 @@ def make_standings_section(standings_rows):
     # Full team name -> city name used for team page.
     team_page_names = {
         "Atlanta Braves": "Atlanta",
-        "San Francisco Giants": "Atlanta",
-        "Pawtucket Red Sox": "Pawtucket",
-        "Richmond Braves": "Richmond",
-        "Omaha Royals": "Omaha",
-        "Dunedin Blue Jays": "Dunedin",
+        "San Francisco Giants": "San Francisco",
+        "Milwaukee Brewers": "Milwaukee",
+        "St. Louis Cardinals": "St. Louis",
+        "Oakland Athletics": "Oakland",
+        "Los Angeles Angels": "Los Angeles",
     }
 
     html = """
