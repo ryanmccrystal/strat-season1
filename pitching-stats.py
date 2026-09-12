@@ -26,12 +26,12 @@ LOGO_DIRECTORY = "logos"
 # ============================================================
 
 TEAM_TABS = [
-    "Iowa",
-    "Omaha",
-    "Richmond",
-    "Pawtucket",
-    "Dunedin",
-    "Portland"
+    "ATL",
+    "SFG",
+    "LAA",
+    "MIL",
+    "STL",
+    "OAK"
 ]
 
 
