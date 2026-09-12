@@ -11,12 +11,12 @@ from google.oauth2.service_account import Credentials
 SPREADSHEET_ID = "1NkwN2hKQGNRcSdfAyFTyAMvp7I29CxmLsw-LXjCwT5A"
 
 TEAM_TABS = [
-    "Iowa",
-    "Omaha",
-    "Richmond",
-    "Pawtucket",
-    "Dunedin",
-    "Portland"
+        "ATL",
+    "SFG",
+    "LAA",
+    "MIL",
+    "STL",
+    "OAK"
     # Add the rest of your team tab names here
 ]
 
