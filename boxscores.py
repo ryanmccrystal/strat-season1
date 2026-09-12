@@ -1417,8 +1417,17 @@ def make_standings_section(standings_rows):
 
         team_name = row["team"].strip()
 
-        # Convert the full team name to the three-letter team code.
-        team_code = TEAM_CODES.get(
+        # Full team name -> three-letter team code.
+        team_page_codes = {
+            "Atlanta Braves": "ATL",
+            "San Francisco Giants": "SFG",
+            "Milwaukee Brewers": "MIL",
+            "St. Louis Cardinals": "STL",
+            "Oakland Athletics": "OAK",
+            "Los Angeles Angels": "LAA",
+        }
+
+        team_code = team_page_codes.get(
             team_name,
             team_name
         )
