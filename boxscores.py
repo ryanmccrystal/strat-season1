@@ -1417,18 +1417,14 @@ def make_standings_section(standings_rows):
 
         team_name = row["team"].strip()
 
-        # Get the city name used by the team page.
-        page_name = team_page_names.get(
+        # Convert the full team name to the three-letter team code.
+        team_code = TEAM_CODES.get(
             team_name,
             team_name
         )
 
-        # Convert the city name to the filename.
-        team_slug = re.sub(
-            r"[^a-z0-9]+",
-            "-",
-            page_name.lower()
-        ).strip("-")
+        # Team page filenames use the three-letter team code.
+        team_slug = team_code.lower()
 
         html += f"""
                 <tr>
