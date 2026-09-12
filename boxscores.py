@@ -794,9 +794,14 @@ def make_notes_section(
                 count
             )
 
-            events.append(
-                f"{player_name} ({season_total})"
-            )
+            if count >= 2:
+                events.append(
+                    f"{player_name} {count} ({season_total})"
+                )
+            else:
+                events.append(
+                    f"{player_name} ({season_total})"
+                )
 
         if events:
 
